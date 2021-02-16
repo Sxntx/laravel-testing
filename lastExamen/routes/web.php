@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MainController;
+//use App\Http\Controllers\BiografiaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('main');
-});
+//Route::get('/', InicialController::class);
+//Route::get('/registro', [InicialController::class,'registro']);
+
+Route::get('/', MainController::class);//controladora de la página principal
