@@ -14,23 +14,23 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     @section('nav')
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand disabled" href="{{ url('/') }}">Blogg</a>
+      <a class="navbar-brand disabled" href="{{ url('/') }}">Examen</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="{{ url('main') }}" id="hd" hidden>Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('main') }}" id="hd" >Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('libros')}}" id="hd" hidden>Books</a>
+            <a class="nav-link" href="{{ url('migraciones')}}" id="hd" >Migraciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url('biografia')}}" id="hd" hidden>Biography</a>
+            <a class="nav-link" href="{{ url('seeders')}}" id="hd" >Seeders</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="{{ url('sugerencias')}}" id="hd" hidden>Suggestions</a>
+            <a class="nav-link " href="{{ url('mail')}}" id="hd" >Mail</a>
           </li>
         </ul>
       </div>

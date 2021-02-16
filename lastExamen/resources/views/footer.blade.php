@@ -2,13 +2,13 @@
 <div class="container-fluid bg-light pt-3 pb-3">
   <div class="row">
     <div class="col-md-4 text-center">
-      Politics
+      Santiago Espinosa Motoche
     </div>
     <div class="col-md-4 text-center">
-      Terms
+      2nd DAW
     </div>
     <div class="col-md-4 text-center">
-      Conditions
+      {{ date(DATE_RFC2822) }}
     </div>
   </div>
 </div>
